@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VizionPOS | Premium Point of Sale Solutions</title>
-    <meta name="description" content="VizionPOS provides all-in-one payment processing and business management tools inspired by modern efficiency.">
+    <meta name="description"
+        content="VizionPOS provides all-in-one payment processing and business management tools inspired by modern efficiency.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <nav>
         <div class="nav-wrapper">
@@ -198,17 +201,9 @@
     </section>
 
     <section class="retail-features">
-        <div class="container">
-            <div class="features-header">
-                <div class="header-left">
-                    <h2>KEEP THINGS FLOWING WITH THE <br>ALL-IN-ONE RETAIL POS</h2>
-                </div>
-                <div class="header-right">
-                    <p>Transform your boutique or specialty store with Vizion's integrated software solution, designed to streamline inventory, enhance customer experience, and boost profitability through deep insights.</p>
-                    <button class="cta-btn yellow">Explore Retail & Boutiques &rarr;</button>
-                </div>
-            </div>
-            <div class="features-grid">
+        <div class="container sticky-layout-rev">
+            <!-- Left Side: Scrolling Features -->
+            <div class="scrolling-left">
                 <div class="feature-card">
                     <div class="card-visual chart">
                         <div class="bar-group">
@@ -234,6 +229,7 @@
                     </div>
                     <h4>See top-performing products</h4>
                 </div>
+
                 <div class="feature-card dark">
                     <div class="card-visual inventory">
                         <div class="progress-circle">
@@ -246,6 +242,7 @@
                     </div>
                     <h4>Manage stock, vendors, and purchasing</h4>
                 </div>
+
                 <div class="feature-card accent">
                     <div class="card-visual sync">
                         <div class="order-item">
@@ -266,6 +263,7 @@
                     </div>
                     <h4>Sync in-store and online inventory</h4>
                 </div>
+
                 <div class="feature-card">
                     <div class="card-visual loyalty">
                         <div class="member-card">
@@ -285,50 +283,72 @@
                     <h4>Turn first-time buyers into regulars</h4>
                 </div>
             </div>
+
+            <!-- Right Side: Sticky Content -->
+            <div class="sticky-right">
+                <h2>KEEP THINGS FLOWING WITH THE <br>ALL-IN-ONE RETAIL POS</h2>
+                <p>Transform your boutique or specialty store with Vizion's integrated software solution, designed to
+                    streamline inventory, enhance customer experience, and boost profitability through deep insights.
+                </p>
+                <button class="cta-btn yellow">EXPLORE RETAIL & BOUTIQUES &rarr;</button>
+            </div>
         </div>
     </section>
 
     <section class="product-showcase">
-        <video autoplay muted loop playsinline preload="auto" id="showcaseVideo">
-            <source src="8657605-uhd_4096_2160_25fps.mp4" type="video/mp4">
-        </video>
-        <div class="showcase-overlay"></div>
-        
-        <div class="container showcase-container">
-            <div class="showcase-top-left">
-                <h2>HARDWARE THAT HUSTLES <br>AS HARD AS YOU DO</h2>
-                <div class="showcase-btns">
-                    <button class="cta-btn yellow">SHOP DEVICES</button>
+        <div class="showcase-header">
+            <h2>HARDWARE THAT HUSTLES <br>AS HARD AS YOU DO</h2>
+            <button class="cta-btn yellow">SHOP ALL DEVICES &rarr;</button>
+        </div>
+
+        <div class="hardware-stage">
+            <!-- Sidebar: 30% -->
+            <div class="product-sidebar">
+                <div class="sidebar-item active thumb" data-video="8657605-uhd_4096_2160_25fps.mp4" data-name="STATION DUO" data-desc="Our most powerful countertop system, designed to manage high-volume retail with ease.">
+                    <img src="station duo.png" alt="Station Duo">
+                    <div class="item-info">
+                        <h4>STATION DUO</h4>
+                        <p>High-volume countertop power.</p>
+                    </div>
+                </div>
+                <div class="sidebar-item thumb" data-video="mini video.mp4" data-name="VIZION MINI" data-desc="A compact, efficient system perfect for boutique countertops and limited spaces.">
+                    <img src="mini.png" alt="Vizion Mini">
+                    <div class="item-info">
+                        <h4>VIZION MINI</h4>
+                        <p>Compact & efficient design.</p>
+                    </div>
+                </div>
+                <div class="sidebar-item thumb" data-video="3970164-uhd_3840_2160_30fps.mp4" data-name="VIZION FLEX" data-desc="The ultimate handheld POS to take payments anywhere in your store.">
+                    <img src="flex.png" alt="Vizion Flex">
+                    <div class="item-info">
+                        <h4>VIZION FLEX</h4>
+                        <p>Ultimate handheld flexibility.</p>
+                    </div>
+                </div>
+                <div class="sidebar-item thumb" data-video="kiosk video.mp4" data-name="VIZION KIOSK" data-desc="Self-service checkout system to streamline your customer flow.">
+                    <img src="kiosk.png" alt="Vizion Kiosk">
+                    <div class="item-info">
+                        <h4>VIZION KIOSK</h4>
+                        <p>Streamlined self-service.</p>
+                    </div>
+                </div>
+                <div class="sidebar-item thumb" data-video="kds video.mp4" data-name="VIZION KDS" data-desc="Kitchen and inventory display system to keep your operations organized.">
+                    <img src="kds.png" alt="Vizion KDS">
+                    <div class="item-info">
+                        <h4>VIZION KDS</h4>
+                        <p>Kitchen operations organized.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="showcase-bottom-content">
-                <div class="product-info">
-                    <h3 id="productName">STATION DUO</h3>
-                    <p id="productDesc">Our most powerful countertop system, designed to manage high-volume retail with ease.</p>
-                </div>
-
-                <div class="product-thumbs">
-                    <div class="thumb active" data-video="8657605-uhd_4096_2160_25fps.mp4" data-name="STATION DUO" data-desc="Our most powerful countertop system, designed to manage high-volume retail with ease.">
-                        <img src="station duo.png" alt="Station Duo">
-                        <span class="thumb-name">Station Duo</span>
-                    </div>
-                    <div class="thumb" data-video="mini video.mp4" data-name="VIZION MINI" data-desc="A compact, efficient system perfect for boutique countertops and limited spaces.">
-                        <img src="mini.png" alt="Vizion Mini">
-                        <span class="thumb-name">Mini</span>
-                    </div>
-                    <div class="thumb" data-video="3970164-uhd_3840_2160_30fps.mp4" data-name="VIZION FLEX" data-desc="The ultimate handheld POS to take payments anywhere in your store.">
-                        <img src="flex.png" alt="Vizion Flex">
-                        <span class="thumb-name">Flex</span>
-                    </div>
-                    <div class="thumb" data-video="kiosk video.mp4" data-name="VIZION KIOSK" data-desc="Self-service checkout system to streamline your customer flow.">
-                        <img src="kiosk.png" alt="Vizion Kiosk">
-                        <span class="thumb-name">Kiosk</span>
-                    </div>
-                    <div class="thumb" data-video="kds video.mp4" data-name="VIZION KDS" data-desc="Kitchen and inventory display system to keep your operations organized.">
-                        <img src="kds.png" alt="Vizion KDS">
-                        <span class="thumb-name">KDS</span>
-                    </div>
+            <!-- Main Display: 70% -->
+            <div class="main-video-area">
+                <video autoplay muted loop playsinline id="showcaseVideo">
+                    <source src="8657605-uhd_4096_2160_25fps.mp4" type="video/mp4">
+                </video>
+                <div class="video-label-overlay">
+                    <h5 id="productName">STATION DUO</h5>
+                    <p id="productDesc" style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-top: 5px;">Our most powerful countertop system, designed to manage high-volume retail with ease.</p>
                 </div>
             </div>
         </div>
@@ -386,89 +406,106 @@
     </section>
 
     <section class="online-ordering">
-        <div class="container">
-            <div class="ordering-header">
-                <div class="header-left">
-                    <h2>ALL OF YOUR ONLINE ORDERS, <br>IN ONE PLACE</h2>
-                </div>
-                <div class="header-right">
-                    <p>Drive revenue and deliver more to retail customers with commission-free online shopping, local delivery management, and real-time inventory sync.</p>
-                    <button class="cta-btn yellow">Explore Online Ordering &rarr;</button>
-                </div>
+        <div class="container sticky-layout">
+            <!-- Left Side: Sticky Content -->
+            <div class="sticky-left">
+                <h2>ALL OF YOUR ONLINE ORDERS, <br>IN ONE PLACE</h2>
+                <p>Drive revenue and deliver more to retail customers with commission-free online shopping, local
+                    delivery management, and real-time inventory sync.</p>
+                <button class="cta-btn yellow">EXPLORE ONLINE ORDERING &rarr;</button>
             </div>
 
-            <div class="ordering-grid">
-                <!-- Card 1: Retail Integrations -->
+            <!-- Right Side: Scrolling Cards -->
+            <div class="scrolling-right">
+                <!-- Card 1: Omnichannel -->
                 <div class="order-card">
-                    <div class="card-ui integrations">
-                        <div class="center-box">Inventory Sync</div>
-                        <div class="icon-circle top-left"><i class="fa-brands fa-instagram"></i></div>
-                        <div class="icon-circle top-right"><i class="fa-brands fa-google"></i></div>
-                        <div class="icon-circle bottom-left"><i class="fa-solid fa-bag-shopping"></i></div>
-                        <div class="icon-circle bottom-right"><i class="fa-solid fa-tag"></i></div>
+                    <div class="card-ui">
+                        <div class="connection-grid">
+                            <div class="conn-icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="conn-icon"><i class="fa-brands fa-google"></i></div>
+                            <div class="conn-icon"><i class="fa-brands fa-facebook"></i></div>
+                            <div class="conn-icon"><i class="fa-brands fa-tiktok"></i></div>
+                            <div class="conn-icon"><i class="fa-brands fa-shopify"></i></div>
+                            <div class="conn-icon"><i class="fa-solid fa-store"></i></div>
+                        </div>
                     </div>
                     <div class="card-info">
-                        <h4>Social & Marketplace Sync</h4>
-                        <p>Connect your boutique to Instagram Shop, Google Shopping, and local marketplaces to sell everywhere at once.</p>
+                        <h4>Omnichannel Sync</h4>
+                        <p>Sync your entire catalog to Instagram, Google, and TikTok. Manage every sale from a single,
+                            unified retail dashboard.</p>
                     </div>
                 </div>
 
-                <!-- Card 2: Digital Boutique -->
+                <!-- Card 2: Inventory -->
+                <div class="order-card">
+                    <div class="card-ui">
+                        <div class="dashboard-widget">
+                            <div class="db-row"><span>Leather Goods</span><span>82%</span></div>
+                            <div class="db-line" style="--progress: 82%;"></div>
+                            <div class="db-row"><span>Accessories</span><span>45%</span></div>
+                            <div class="db-line" style="--progress: 45%;"></div>
+                            <div class="db-row"><span>Footwear</span><span>91%</span></div>
+                            <div class="db-line" style="--progress: 91%;"></div>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Intelligent Inventory</h4>
+                        <p>Real-time stock tracking across all channels. Get automated low-stock alerts and purchase
+                            order suggestions.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Checkout -->
+                <div class="order-card">
+                    <div class="card-ui">
+                        <div class="receipt-visual">
+                            <div class="receipt-line" style="width: 40%;"></div>
+                            <div class="receipt-line" style="width: 80%;"></div>
+                            <div class="receipt-line" style="width: 60%;"></div>
+                            <div class="receipt-total">
+                                <div class="receipt-line" style="width: 30%; background: var(--secondary);"></div>
+                                <div class="receipt-line" style="width: 20%; background: var(--primary);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Sleek Retail Checkout</h4>
+                        <p>Offer flexible payments including Apple Pay, Google Pay, and Buy Now Pay Later options to
+                            increase conversion.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Delivery -->
                 <div class="order-card dark">
-                    <div class="card-ui website">
-                        <div class="web-header">
-                            <div class="dot"></div>
-                            <div class="dot"></div>
-                            <div class="dot"></div>
-                        </div>
-                        <div class="web-body">
-                            <div class="list-item">
-                                <div class="item-icon yellow"></div>
-                                <div class="item-line"></div>
+                    <div class="card-ui">
+                        <div class="status-tracker">
+                            <div class="tracker-step">
+                                <div class="step-dot active"></div>
+                                <div class="step-info">
+                                    <strong>Order Received</strong>
+                                    <span>Today, 10:24 AM</span>
+                                </div>
                             </div>
-                            <div class="list-item">
-                                <div class="item-icon teal"></div>
-                                <div class="item-line"></div>
+                            <div class="tracker-step">
+                                <div class="step-dot active"></div>
+                                <div class="step-info">
+                                    <strong>Packed & Ready</strong>
+                                    <span>Today, 11:15 AM</span>
+                                </div>
                             </div>
-                            <div class="order-btn">Buy Now</div>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <h4>Your Digital Boutique</h4>
-                        <p>Launch a professional online store with zero coding, featuring real-time inventory sync and gift card support.</p>
-                    </div>
-                </div>
-
-                <!-- Card 3: Retail Checkout -->
-                <div class="order-card">
-                    <div class="card-ui checkout">
-                        <div class="payment-icons">
-                            <i class="fa-brands fa-cc-visa"></i>
-                            <i class="fa-brands fa-cc-mastercard"></i>
-                            <i class="fa-brands fa-apple-pay"></i>
-                        </div>
-                        <div class="checkout-btn">Complete Purchase</div>
-                    </div>
-                    <div class="card-info">
-                        <h4>Seamless Retail Checkout</h4>
-                        <p>Secure, mobile-optimized payments for every customer, supporting buy-now-pay-later and gift cards.</p>
-                    </div>
-                </div>
-
-                <!-- Card 4: Local Fulfillment -->
-                <div class="order-card">
-                    <div class="card-ui delivery">
-                        <div class="status-msg">
-                            <i class="fa-solid fa-truck-fast"></i>
-                            <div class="msg-text">
-                                <strong>Out for Delivery</strong>
-                                <span>Your boutique order is on its way</span>
+                            <div class="tracker-step">
+                                <div class="step-dot active"></div>
+                                <div class="step-info">
+                                    <strong>Out for Delivery</strong>
+                                    <span>On the way</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="card-info">
-                        <h4>Local Delivery & BOPIS</h4>
-                        <p>Manage in-store pickups (BOPIS) and local courier deliveries from a single retail-optimized dashboard.</p>
+                        <h4>Smart Logistics</h4>
+                        <p>Streamline local delivery and In-Store Pickup (BOPIS). Keep customers updated with real-time
+                            tracking alerts.</p>
                     </div>
                 </div>
             </div>
@@ -485,7 +522,8 @@
                 <div class="solution-card">
                     <i class="fa-solid fa-tags"></i>
                     <h3>RETAIL</h3>
-                    <p>From boutiques to big box, manage inventory, loyalty, and multi-channel sales from one dashboard.</p>
+                    <p>From boutiques to big box, manage inventory, loyalty, and multi-channel sales from one dashboard.
+                    </p>
                 </div>
                 <div class="solution-card">
                     <i class="fa-solid fa-scissors"></i>
@@ -532,7 +570,7 @@
             <div class="footer-logo-row">
                 <img src="Dark Light Logo.png" alt="VizionPOS Logo">
             </div>
-            
+
             <!-- Top Footer Grid -->
             <div class="footer-grid-top">
                 <div class="footer-col">
@@ -649,10 +687,13 @@
                 <div class="disclaimer-left">
                     <p>&copy; 2026 VizionPOS Network, LLC</p>
                     <p class="small-text">
-                        *VizionPOS Hardware Promotion available for new VizionPOS Business Solutions merchants who have not previously had a VizionPOS account... (Rest of disclaimer text as per reference)
+                        *VizionPOS Hardware Promotion available for new VizionPOS Business Solutions merchants who have
+                        not previously had a VizionPOS account... (Rest of disclaimer text as per reference)
                     </p>
                     <p class="small-text">
-                        The VizionPOS name and logo are registered trademarks owned by VizionPOS Network, LLC. All other trademarks, service marks, and trade names referenced in this material are the property of their respective owners.
+                        The VizionPOS name and logo are registered trademarks owned by VizionPOS Network, LLC. All other
+                        trademarks, service marks, and trade names referenced in this material are the property of their
+                        respective owners.
                     </p>
                 </div>
                 <div class="disclaimer-right">
@@ -673,7 +714,7 @@
             const subNav = document.querySelector('.sub-nav');
             const footer = document.querySelector('.main-footer');
             const scrollThreshold = 80;
-            
+
             // Check if footer is in view
             const footerRect = footer.getBoundingClientRect();
             const footerInView = footerRect.top <= window.innerHeight;
@@ -749,7 +790,7 @@
                 // Simple video swap
                 video.src = newVideo;
                 video.play();
-                
+
                 nameText.innerText = newName;
                 descText.innerText = newDesc;
             });
@@ -757,8 +798,8 @@
 
         // Intersection Observer for staggered animation
         const showcase = document.querySelector('.product-showcase');
-        const thumbsContainer = document.querySelector('.product-thumbs');
-        const showcaseThumbs = document.querySelectorAll('.thumb');
+        const sidebar = document.querySelector('.product-sidebar');
+        const sidebarItems = document.querySelectorAll('.sidebar-item');
 
         const observerOptions = {
             threshold: 0.3
@@ -767,9 +808,9 @@
         const showcaseObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    thumbsContainer.classList.add('animate-in');
-                    showcaseThumbs.forEach((thumb, index) => {
-                        thumb.style.animationDelay = `${index * 0.15}s`;
+                    sidebar.classList.add('animate-in');
+                    sidebarItems.forEach((item, index) => {
+                        item.style.transitionDelay = `${index * 0.1}s`;
                     });
                     showcaseObserver.unobserve(entry.target);
                 }
@@ -792,7 +833,7 @@
                     const prefix = counter.getAttribute('data-prefix') || '';
                     const suffix = counter.getAttribute('data-suffix') || '';
                     const decimals = parseInt(counter.getAttribute('data-decimals')) || 0;
-                    
+
                     let count = 0;
                     const duration = 2000; // 2 seconds
                     const increment = target / (duration / 16); // 60fps
@@ -816,4 +857,5 @@
         counters.forEach(counter => counterObserver.observe(counter));
     </script>
 </body>
+
 </html>
