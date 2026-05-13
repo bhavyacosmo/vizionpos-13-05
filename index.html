@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VizionPOS | Premium Point of Sale Solutions</title>
+    <meta name="description" content="VizionPOS provides all-in-one payment processing and business management tools inspired by modern efficiency.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-left">
+                <img src="Dark Light Logo.png" alt="VizionPOS Logo">
+            </div>
+            <div class="nav-middle">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#">Restaurants</a>
+                        <div class="mega-menu">
+                            <div class="mega-col">
+                                <h5>Quick Service</h5>
+                                <ul>
+                                    <li><a href="#">Coffee Shops</a></li>
+                                    <li><a href="#">Food Trucks</a></li>
+                                    <li><a href="#">Bakeries</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <h5>Full Service</h5>
+                                <ul>
+                                    <li><a href="#">Fine Dining</a></li>
+                                    <li><a href="#">Casual Dining</a></li>
+                                    <li><a href="#">Bars & Pubs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Services</a>
+                        <div class="mega-menu">
+                            <div class="mega-col">
+                                <h5>Personal Care</h5>
+                                <ul>
+                                    <li><a href="#">Salons</a></li>
+                                    <li><a href="#">Barbershops</a></li>
+                                    <li><a href="#">Spas</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <h5>Professional</h5>
+                                <ul>
+                                    <li><a href="#">Law Firms</a></li>
+                                    <li><a href="#">Accounting</a></li>
+                                    <li><a href="#">Consulting</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Retail</a>
+                        <div class="mega-menu">
+                            <div class="mega-col">
+                                <h5>Boutiques</h5>
+                                <ul>
+                                    <li><a href="#">Clothing</a></li>
+                                    <li><a href="#">Jewelry</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <h5>Specialty</h5>
+                                <ul>
+                                    <li><a href="#">Electronics</a></li>
+                                    <li><a href="#">Home Decor</a></li>
+                                    <li><a href="#">Sporting Goods</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Healthcare</a>
+                        <div class="mega-menu">
+                            <div class="mega-col">
+                                <h5>Medical</h5>
+                                <ul>
+                                    <li><a href="#">Clinics</a></li>
+                                    <li><a href="#">Dentists</a></li>
+                                    <li><a href="#">Optometry</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <h5>Wellness</h5>
+                                <ul>
+                                    <li><a href="#">Yoga Studios</a></li>
+                                    <li><a href="#">Gyms</a></li>
+                                    <li><a href="#">Mental Health</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Products</a>
+                        <div class="mega-menu">
+                            <div class="mega-col">
+                                <h5>Hardware</h5>
+                                <ul>
+                                    <li><a href="#">Vizion Station</a></li>
+                                    <li><a href="#">Vizion Mini</a></li>
+                                    <li><a href="#">Vizion Flex</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <h5>Software</h5>
+                                <ul>
+                                    <li><a href="#">Payments</a></li>
+                                    <li><a href="#">Inventory</a></li>
+                                    <li><a href="#">Analytics</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Resources</a>
+                        <div class="mega-menu">
+                            <div class="mega-col">
+                                <h5>Learn</h5>
+                                <ul>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Case Studies</a></li>
+                                    <li><a href="#">Help Center</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <h5>Support</h5>
+                                <ul>
+                                    <li><a href="#">Documentation</a></li>
+                                    <li><a href="#">API Status</a></li>
+                                    <li><a href="#">Community</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="cta-btn">Book A Demo</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <video autoplay muted loop playsinline id="heroVideo">
+            <source src="8657605-uhd_4096_2160_25fps.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content centered">
+                <h1>A VIZION FOR EVERY <br>RETAIL BUSINESS</h1>
+                <p>Do what you do better with the world's smartest retail POS system.</p>
+                <div class="hero-btns">
+                    <button class="cta-btn dark">GET VIZION &rarr;</button>
+                    <button class="cta-btn yellow">CONTACT SALES &rarr;</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="sub-nav">
+        <div class="container">
+            <div class="sub-nav-wrapper">
+                <div class="sub-nav-left">
+                    <span class="label">CUSTOMIZE BY:</span>
+                    <a href="#" class="sub-nav-item active">
+                        <i class="fa-solid fa-shirt"></i>
+                        <span>Boutiques</span>
+                    </a>
+                    <a href="#" class="sub-nav-item">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Electronics</span>
+                    </a>
+                    <a href="#" class="sub-nav-item">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span>Supermarkets</span>
+                    </a>
+                </div>
+                <div class="sub-nav-right">
+                    <a href="#" class="specialist-link">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <span>TALK TO A RETAIL SPECIALIST</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="retail-features">
+        <div class="container">
+            <div class="features-header">
+                <div class="header-left">
+                    <h2>KEEP THINGS FLOWING WITH THE <br>ALL-IN-ONE RETAIL POS</h2>
+                </div>
+                <div class="header-right">
+                    <p>Transform your boutique or specialty store with Vizion's integrated software solution, designed to streamline inventory, enhance customer experience, and boost profitability through deep insights.</p>
+                    <button class="cta-btn yellow">Explore Retail & Boutiques &rarr;</button>
+                </div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="card-visual chart">
+                        <div class="bar-group">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            <div class="bar" style="height: 80%; background: var(--secondary);"></div>
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <div class="bar-group">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            <div class="bar" style="height: 60%; background: var(--secondary); opacity: 0.7;"></div>
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <div class="bar-group">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            <div class="bar" style="height: 95%; background: var(--accent);"></div>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="bar-group">
+                            <i class="fa-solid fa-arrow-down"></i>
+                            <div class="bar" style="height: 40%; background: var(--secondary); opacity: 0.5;"></div>
+                            <i class="fa-solid fa-hat-cowboy"></i>
+                        </div>
+                    </div>
+                    <h4>See top-performing products</h4>
+                </div>
+                <div class="feature-card dark">
+                    <div class="card-visual inventory">
+                        <div class="progress-circle">
+                            <div class="circle-inner">
+                                <span class="percent">85%</span>
+                                <span class="label">STOCK</span>
+                            </div>
+                        </div>
+                        <div class="vendor-label">Vendor: Global Supply</div>
+                    </div>
+                    <h4>Manage stock, vendors, and purchasing</h4>
+                </div>
+                <div class="feature-card accent">
+                    <div class="card-visual sync">
+                        <div class="order-item">
+                            <i class="fa-solid fa-tag"></i>
+                            <span>Classic Tee</span>
+                            <div class="status">SYNCED</div>
+                        </div>
+                        <div class="order-item">
+                            <i class="fa-solid fa-tag"></i>
+                            <span>Denim Jacket</span>
+                            <div class="status">SYNCED</div>
+                        </div>
+                        <div class="order-item">
+                            <i class="fa-solid fa-tag"></i>
+                            <span>Silk Scarf</span>
+                            <div class="status">SYNCED</div>
+                        </div>
+                    </div>
+                    <h4>Sync in-store and online inventory</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="card-visual loyalty">
+                        <div class="member-card">
+                            <div class="member-header">
+                                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                                <div class="info">
+                                    <strong>Alex Johnson</strong>
+                                    <span>Member since 2024</span>
+                                </div>
+                            </div>
+                            <div class="member-body">
+                                <span class="pts-label">Points Balance</span>
+                                <div class="points">2,817</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Turn first-time buyers into regulars</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-showcase">
+        <video autoplay muted loop playsinline id="showcaseVideo">
+            <source src="8657605-uhd_4096_2160_25fps.mp4" type="video/mp4">
+        </video>
+        <div class="showcase-overlay"></div>
+        
+        <div class="container showcase-container">
+            <div class="showcase-top-left">
+                <h2>HARDWARE THAT HUSTLES <br>AS HARD AS YOU DO</h2>
+                <div class="showcase-btns">
+                    <button class="cta-btn yellow">SHOP DEVICES</button>
+                </div>
+            </div>
+
+            <div class="showcase-bottom-content">
+                <div class="product-info">
+                    <h3 id="productName">STATION DUO</h3>
+                    <p id="productDesc">Our most powerful countertop system, designed to manage high-volume retail with ease.</p>
+                </div>
+
+                <div class="product-thumbs">
+                    <div class="thumb active" data-video="8657605-uhd_4096_2160_25fps.mp4" data-name="STATION DUO" data-desc="Our most powerful countertop system, designed to manage high-volume retail with ease.">
+                        <img src="station duo.png" alt="Station Duo">
+                        <span class="thumb-name">Station Duo</span>
+                    </div>
+                    <div class="thumb" data-video="mini video.mp4" data-name="VIZION MINI" data-desc="A compact, efficient system perfect for boutique countertops and limited spaces.">
+                        <img src="mini.png" alt="Vizion Mini">
+                        <span class="thumb-name">Mini</span>
+                    </div>
+                    <div class="thumb" data-video="3970164-uhd_3840_2160_30fps.mp4" data-name="VIZION FLEX" data-desc="The ultimate handheld POS to take payments anywhere in your store.">
+                        <img src="flex.png" alt="Vizion Flex">
+                        <span class="thumb-name">Flex</span>
+                    </div>
+                    <div class="thumb" data-video="kiosk video.mp4" data-name="VIZION KIOSK" data-desc="Self-service checkout system to streamline your customer flow.">
+                        <img src="kiosk.png" alt="Vizion Kiosk">
+                        <span class="thumb-name">Kiosk</span>
+                    </div>
+                    <div class="thumb" data-video="kds video.mp4" data-name="VIZION KDS" data-desc="Kitchen and inventory display system to keep your operations organized.">
+                        <img src="kds.png" alt="Vizion KDS">
+                        <span class="thumb-name">KDS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h2 class="counter" data-target="50" data-suffix="K+">0K+</h2>
+                    <p>Businesses Powered</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="10" data-prefix="$" data-suffix="B+">$0B+</h2>
+                    <p>Processed Annually</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="99.9" data-suffix="%" data-decimals="1">0%</h2>
+                    <p>Platform Uptime</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="24" data-suffix="/7">0/7</h2>
+                    <p>Premium Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <video autoplay muted loop playsinline id="testimonialVideo">
+            <source src="3970164-uhd_3840_2160_30fps.mp4" type="video/mp4">
+        </video>
+        <div class="testimonial-overlay"></div>
+        <div class="container testimonial-container">
+            <div class="testimonial-top">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <blockquote>
+                    VIZIONPOS IS LIKE OUR THIRD ARM... <br>
+                    ALLOWING US TO FOCUS ON OUR CUSTOMERS, <br>
+                    NOT THE PAPERWORK.
+                </blockquote>
+            </div>
+            <div class="testimonial-bottom">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <div class="profile-info">
+                        <strong>Sarah Jenkins</strong>
+                        <span>Owner, The Urban Boutique</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="online-ordering">
+        <div class="container">
+            <div class="ordering-header">
+                <div class="header-left">
+                    <h2>ALL OF YOUR ONLINE ORDERS, <br>IN ONE PLACE</h2>
+                </div>
+                <div class="header-right">
+                    <p>Drive revenue and deliver more to retail customers with commission-free online shopping, local delivery management, and real-time inventory sync.</p>
+                    <button class="cta-btn yellow">Explore Online Ordering &rarr;</button>
+                </div>
+            </div>
+
+            <div class="ordering-grid">
+                <!-- Card 1: Retail Integrations -->
+                <div class="order-card">
+                    <div class="card-ui integrations">
+                        <div class="center-box">Inventory Sync</div>
+                        <div class="icon-circle top-left"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="icon-circle top-right"><i class="fa-brands fa-google"></i></div>
+                        <div class="icon-circle bottom-left"><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div class="icon-circle bottom-right"><i class="fa-solid fa-tag"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Social & Marketplace Sync</h4>
+                        <p>Connect your boutique to Instagram Shop, Google Shopping, and local marketplaces to sell everywhere at once.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Digital Boutique -->
+                <div class="order-card dark">
+                    <div class="card-ui website">
+                        <div class="web-header">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="web-body">
+                            <div class="list-item">
+                                <div class="item-icon yellow"></div>
+                                <div class="item-line"></div>
+                            </div>
+                            <div class="list-item">
+                                <div class="item-icon teal"></div>
+                                <div class="item-line"></div>
+                            </div>
+                            <div class="order-btn">Buy Now</div>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Your Digital Boutique</h4>
+                        <p>Launch a professional online store with zero coding, featuring real-time inventory sync and gift card support.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Retail Checkout -->
+                <div class="order-card">
+                    <div class="card-ui checkout">
+                        <div class="payment-icons">
+                            <i class="fa-brands fa-cc-visa"></i>
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                            <i class="fa-brands fa-apple-pay"></i>
+                        </div>
+                        <div class="checkout-btn">Complete Purchase</div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Seamless Retail Checkout</h4>
+                        <p>Secure, mobile-optimized payments for every customer, supporting buy-now-pay-later and gift cards.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Local Fulfillment -->
+                <div class="order-card">
+                    <div class="card-ui delivery">
+                        <div class="status-msg">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <div class="msg-text">
+                                <strong>Out for Delivery</strong>
+                                <span>Your boutique order is on its way</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Local Delivery & BOPIS</h4>
+                        <p>Manage in-store pickups (BOPIS) and local courier deliveries from a single retail-optimized dashboard.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solutions" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>BUILT FOR YOUR INDUSTRY</h2>
+                <p>Tailored solutions designed to meet the unique challenges of your business.</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <i class="fa-solid fa-tags"></i>
+                    <h3>RETAIL</h3>
+                    <p>From boutiques to big box, manage inventory, loyalty, and multi-channel sales from one dashboard.</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fa-solid fa-scissors"></i>
+                    <h3>SERVICES</h3>
+                    <p>Booking, client tracking, and automated reminders designed for salons and professional firms.</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h3>RESTAURANTS</h3>
+                    <p>Precision table management and kitchen display systems for high-volume dining environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <h6 class="section-subtitle">USED BY COMPANIES YOU (AND WE) LOVE</h6>
+            <div class="partners-grid">
+                <div class="partner-logo">
+                    <span class="logo-text">Aside</span>
+                </div>
+                <div class="partner-logo">
+                    <span class="logo-text bold">ADAPTA</span>
+                </div>
+                <div class="partner-logo">
+                    <span class="logo-text"><i class="fa-solid fa-compass"></i> Cluely</span>
+                </div>
+                <div class="partner-logo">
+                    <span class="logo-text"><i class="fa-solid fa-microchip"></i> Composio</span>
+                </div>
+                <div class="partner-logo">
+                    <span class="logo-text serif">Pocket</span>
+                </div>
+                <div class="partner-logo placeholder">
+                    <span>Your logo here</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-logo-row">
+                <img src="Dark Light Logo.png" alt="VizionPOS Logo">
+            </div>
+            
+            <!-- Top Footer Grid -->
+            <div class="footer-grid-top">
+                <div class="footer-col">
+                    <h5>Take payments</h5>
+                    <ul>
+                        <li><a href="#">Card readers and POS devices</a></li>
+                        <li><a href="#">Point of sale system</a></li>
+                        <li><a href="#">Online ordering and sales</a></li>
+                        <li><a href="#">Payment processing</a></li>
+                        <li><a href="#">Invoicing</a></li>
+                        <li><a href="#">Virtual Terminal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Run your business</h5>
+                    <ul>
+                        <li><a href="#">Tracking and reporting</a></li>
+                        <li><a href="#">Inventory management</a></li>
+                        <li><a href="#">Vizion Capital</a></li>
+                        <li><a href="#">Rapid Deposit</a></li>
+                        <li><a href="#">Employee management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Sell more</h5>
+                    <ul>
+                        <li><a href="#">Customer engagement</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Apps and integrations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Business types</h5>
+                    <ul>
+                        <li><a href="#">Restaurants</a></li>
+                        <li><a href="#">Retail stores</a></li>
+                        <li><a href="#">Service businesses</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Footer Grid -->
+            <div class="footer-grid-bottom">
+                <div class="footer-col">
+                    <h5>Hardware devices</h5>
+                    <ul>
+                        <li><a href="#">Go</a></li>
+                        <li><a href="#">Compact</a></li>
+                        <li><a href="#">Flex Pocket</a></li>
+                        <li><a href="#">Flex</a></li>
+                        <li><a href="#">Mini</a></li>
+                        <li><a href="#">Station Solo</a></li>
+                        <li><a href="#">Station Duo</a></li>
+                        <li><a href="#">Kiosk</a></li>
+                        <li><a href="#">Kitchen Display System</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Help</h5>
+                    <ul>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Vizion Care</a></li>
+                        <li><a href="#">Contact sales</a></li>
+                        <li><a href="#">Small Business Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>About</h5>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case studies</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Intellectual property</a></li>
+                        <li><a href="#">Referrals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Integrations</h5>
+                    <ul>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">App market</a></li>
+                        <li><a href="#">Vizion Connect</a></li>
+                        <li><a href="#">Integration services</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <div class="footer-control">
+                    <button id="pauseVideos" class="control-btn">
+                        <i class="fa-solid fa-circle-pause"></i>
+                        <span>Pause Animations</span>
+                    </button>
+                </div>
+                <div class="footer-country">
+                    <i class="fa-solid fa-globe"></i>
+                    <span>United States (English)</span>
+                </div>
+                <div class="footer-socials-large">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-legal-disclaimer">
+                <div class="disclaimer-left">
+                    <p>&copy; 2026 VizionPOS Network, LLC</p>
+                    <p class="small-text">
+                        *VizionPOS Hardware Promotion available for new VizionPOS Business Solutions merchants who have not previously had a VizionPOS account... (Rest of disclaimer text as per reference)
+                    </p>
+                    <p class="small-text">
+                        The VizionPOS name and logo are registered trademarks owned by VizionPOS Network, LLC. All other trademarks, service marks, and trade names referenced in this material are the property of their respective owners.
+                    </p>
+                </div>
+                <div class="disclaimer-right">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Do Not Sell My Information</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            const subNav = document.querySelector('.sub-nav');
+            const footer = document.querySelector('.main-footer');
+            const scrollThreshold = 80;
+            
+            // Check if footer is in view
+            const footerRect = footer.getBoundingClientRect();
+            const footerInView = footerRect.top <= window.innerHeight;
+
+            if (window.scrollY > scrollThreshold && !footerInView) {
+                nav.classList.add('nav-hidden');
+                if (subNav) {
+                    subNav.classList.add('sticky-top');
+                    subNav.style.opacity = '1';
+                    subNav.style.pointerEvents = 'auto';
+                }
+            } else if (footerInView) {
+                // Hide sub-nav when reaching footer
+                if (subNav) {
+                    subNav.style.opacity = '0';
+                    subNav.style.pointerEvents = 'none';
+                }
+            } else {
+                nav.classList.remove('nav-hidden');
+                if (subNav) {
+                    subNav.classList.remove('sticky-top');
+                    subNav.style.opacity = '1';
+                    subNav.style.pointerEvents = 'auto';
+                }
+            }
+        });
+
+        // Pause Animations Logic
+        const pauseBtn = document.getElementById('pauseVideos');
+        let videosPaused = false;
+
+        pauseBtn.addEventListener('click', () => {
+            const allVideos = document.querySelectorAll('video');
+            videosPaused = !videosPaused;
+
+            allVideos.forEach(v => {
+                if (videosPaused) {
+                    v.pause();
+                } else {
+                    v.play();
+                }
+            });
+
+            // Update button UI
+            const icon = pauseBtn.querySelector('i');
+            const span = pauseBtn.querySelector('span');
+            if (videosPaused) {
+                icon.classList.replace('fa-circle-pause', 'fa-circle-play');
+                span.textContent = 'Resume Animations';
+            } else {
+                icon.classList.replace('fa-circle-play', 'fa-circle-pause');
+                span.textContent = 'Pause Animations';
+            }
+        });
+
+        // Product Showcase Logic
+        const thumbs = document.querySelectorAll('.thumb');
+        const video = document.getElementById('showcaseVideo');
+        const nameText = document.getElementById('productName');
+        const descText = document.getElementById('productDesc');
+
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                // Update active state
+                thumbs.forEach(t => t.classList.remove('active'));
+                thumb.classList.add('active');
+
+                // Update content with fade effect
+                const newVideo = thumb.getAttribute('data-video');
+                const newName = thumb.getAttribute('data-name');
+                const newDesc = thumb.getAttribute('data-desc');
+
+                // Simple video swap
+                video.src = newVideo;
+                video.play();
+                
+                nameText.innerText = newName;
+                descText.innerText = newDesc;
+            });
+        });
+
+        // Intersection Observer for staggered animation
+        const showcase = document.querySelector('.product-showcase');
+        const thumbsContainer = document.querySelector('.product-thumbs');
+        const showcaseThumbs = document.querySelectorAll('.thumb');
+
+        const observerOptions = {
+            threshold: 0.3
+        };
+
+        const showcaseObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    thumbsContainer.classList.add('animate-in');
+                    showcaseThumbs.forEach((thumb, index) => {
+                        thumb.style.animationDelay = `${index * 0.15}s`;
+                    });
+                    showcaseObserver.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        showcaseObserver.observe(showcase);
+        // Counter Animation Logic
+        const counters = document.querySelectorAll('.counter');
+        const counterOptions = {
+            threshold: 0.5,
+            rootMargin: "0px"
+        };
+
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const target = parseFloat(counter.getAttribute('data-target'));
+                    const prefix = counter.getAttribute('data-prefix') || '';
+                    const suffix = counter.getAttribute('data-suffix') || '';
+                    const decimals = parseInt(counter.getAttribute('data-decimals')) || 0;
+                    
+                    let count = 0;
+                    const duration = 2000; // 2 seconds
+                    const increment = target / (duration / 16); // 60fps
+
+                    const updateCount = () => {
+                        if (count < target) {
+                            count += increment;
+                            counter.innerText = prefix + count.toFixed(decimals) + suffix;
+                            setTimeout(updateCount, 16);
+                        } else {
+                            counter.innerText = prefix + target.toFixed(decimals) + suffix;
+                        }
+                    };
+
+                    updateCount();
+                    observer.unobserve(counter);
+                }
+            });
+        }, counterOptions);
+
+        counters.forEach(counter => counterObserver.observe(counter));
+    </script>
+</body>
+</html>
